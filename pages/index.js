@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 const Home = () => {
+  const photoEx = "写真展"
   return (
     <>
     <Head>
@@ -12,7 +13,7 @@ const Home = () => {
       <p>テストテストテストテストテストテストテストテストテスト</p>
       <h2>テスト</h2>
       <p>テストテストテストテストテストテストテストテストテストテスト</p>
-      <Image src={`/img/photo_ex.JPG`} width={600} height={400} alt={`写真展`} />
+      <Image src={`/img/photo_ex.JPG`} width={600} height={400} alt={photoEx} />
     </div>
 
     </>
