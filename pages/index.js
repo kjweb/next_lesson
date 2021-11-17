@@ -12,7 +12,7 @@ const Home = () => {
       <p>テストテストテストテストテストテストテストテストテスト</p>
       <h2>テスト</h2>
       <p>テストテストテストテストテストテストテストテストテストテスト</p>
-      <Image src={`/img/photo_ex.JPG`} width={600} height={400} />
+      <Image src={`/img/photo_ex.JPG`} width={600} height={400} alt={`写真展`} />
     </div>
 
     </>
