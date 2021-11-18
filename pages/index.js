@@ -14,6 +14,7 @@ const Home = () => {
       <h2>テスト</h2>
       <p>テストテストテストテストテストテストテストテストテストテスト</p>
       <Image src={`/img/photo_ex.JPG`} width={600} height={400} alt={photoEx} />
+      <Image src="/img/photo_ex.JPG" width={600} height={400} alt="photoEx" placeholder="blur" />
     </div>
 
     </>
